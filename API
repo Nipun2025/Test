@@ -1,0 +1,15 @@
+
+Purpose of API is to get company data from domain name.
+
+Strategy includes scope=only company data will be checked.
+Documentation= All the test data and test cases will be documented.
+Reporting=Tester will report to Test Lead.
+
+Sample data
+Name "OLA"
+LegalName "OLA India"
+Domain "OLA.com"
+DomainAliases "loacabs.com"
+site
+phoneNumbers "9876541230",
+EmailAddresses "domains@ola.com"
