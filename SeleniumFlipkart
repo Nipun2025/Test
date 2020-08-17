@@ -1,0 +1,20 @@
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class Filpkartsearch{
+WebDriver driver;
+public void launchbrowser(){
+System.setProperty("webdriver.gecko.driver","/Users/anaghagadgil/Selenium/Installers/gecodriver");
+driver =new FirefoxDriver();
+driver.get("https://www.flipkart.com/");
+}
+public void searchProduct(){
+driver.findElement(By.type("text")).sendKeys("samsung mobiles");
+driver.findElement(By.id("vh79N")).click();
+}
+public static void main (string[] args){
+Flipkartsearch obj =new Flipkartsearch();
+obj.launchbrowser();
+}
+}
